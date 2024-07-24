@@ -1,0 +1,915 @@
+{
+    "nodes": [
+        {
+            "name": "main_sw0",
+            "type": "switch"
+        },
+        {
+            "name": "main_sw1",
+            "type": "switch"
+        },
+        {
+            "name": "main_sw2",
+            "type": "switch"
+        },
+        {
+            "name": "main_sw3",
+            "type": "switch"
+        },
+        {
+            "name": "branch_0.0_sw0",
+            "type": "switch"
+        },
+        {
+            "name": "branch_0.0_sw1",
+            "type": "switch"
+        },
+        {
+            "name": "branch_0.0_sw2",
+            "type": "switch"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth0_dev5",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth1_dev5",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main0.branch0_branchdepth2_dev5",
+            "type": "host"
+        },
+        {
+            "name": "branch_1.0_sw0",
+            "type": "switch"
+        },
+        {
+            "name": "branch_1.0_sw1",
+            "type": "switch"
+        },
+        {
+            "name": "branch_1.0_sw2",
+            "type": "switch"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth0_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth0_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth0_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth0_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth0_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth1_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth1_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth1_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth1_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth1_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev3",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev4",
+            "type": "host"
+        },
+        {
+            "name": "d_main1.branch0_branchdepth2_dev5",
+            "type": "host"
+        },
+        {
+            "name": "branch_2.0_sw0",
+            "type": "switch"
+        },
+        {
+            "name": "d_main2.branch0_branchdepth0_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main2.branch0_branchdepth0_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main2.branch0_branchdepth0_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main2.branch0_branchdepth0_dev3",
+            "type": "host"
+        },
+        {
+            "name": "branch_3.0_sw0",
+            "type": "switch"
+        },
+        {
+            "name": "d_main3.branch0_branchdepth0_dev0",
+            "type": "host"
+        },
+        {
+            "name": "d_main3.branch0_branchdepth0_dev1",
+            "type": "host"
+        },
+        {
+            "name": "d_main3.branch0_branchdepth0_dev2",
+            "type": "host"
+        },
+        {
+            "name": "d_main3.branch0_branchdepth0_dev3",
+            "type": "host"
+        }
+    ],
+    "links": [
+        {
+            "n1": "main_sw1",
+            "n2": "main_sw0",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "main_sw0",
+            "n2": "main_sw3",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev4",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev2",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev0",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth0_dev3",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_2.0_sw0",
+            "n2": "d_main2.branch0_branchdepth0_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev3",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev0",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth0_dev4",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw2",
+            "n2": "main_sw3",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "d_main1.branch0_branchdepth0_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev1",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth0_dev1",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "d_main1.branch0_branchdepth0_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev5",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "d_main1.branch0_branchdepth1_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main2.branch0_branchdepth0_dev0",
+            "n2": "branch_2.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth1_dev4",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_3.0_sw0",
+            "n2": "d_main3.branch0_branchdepth0_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main2.branch0_branchdepth0_dev3",
+            "n2": "branch_2.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev5",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev1",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev1",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth1_dev2",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev3",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev3",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev1",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_2.0_sw0",
+            "n2": "d_main2.branch0_branchdepth0_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev4",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_3.0_sw0",
+            "n2": "main_sw3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "d_main1.branch0_branchdepth1_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "d_main1.branch0_branchdepth1_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw2",
+            "n2": "main_sw1",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev5",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "d_main1.branch0_branchdepth0_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw3",
+            "n2": "main_sw0",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "branch_3.0_sw0",
+            "n2": "d_main3.branch0_branchdepth0_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main3.branch0_branchdepth0_dev0",
+            "n2": "branch_3.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main2.branch0_branchdepth0_dev1",
+            "n2": "branch_2.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "d_main1.branch0_branchdepth1_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev0",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw3",
+            "n2": "branch_3.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main3.branch0_branchdepth0_dev3",
+            "n2": "branch_3.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth1_dev0",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main3.branch0_branchdepth0_dev2",
+            "n2": "branch_3.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev4",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw3",
+            "n2": "main_sw2",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "d_main2.branch0_branchdepth0_dev2",
+            "n2": "branch_2.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw1",
+            "n2": "main_sw2",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev5",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev2",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_3.0_sw0",
+            "n2": "d_main3.branch0_branchdepth0_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main3.branch0_branchdepth0_dev1",
+            "n2": "branch_3.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_2.0_sw0",
+            "n2": "d_main2.branch0_branchdepth0_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw0",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth1_dev3",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev2",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev3",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev5",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth0_dev0",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "main_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth0_dev4",
+            "n2": "branch_0.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth0_dev2",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_3.0_sw0",
+            "n2": "d_main3.branch0_branchdepth0_dev0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev5",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "d_main1.branch0_branchdepth0_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth2_dev2",
+            "n2": "branch_0.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw0",
+            "n2": "d_main1.branch0_branchdepth0_dev2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "main_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth2_dev0",
+            "n2": "branch_1.0_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw0",
+            "n2": "main_sw1",
+            "bandwidth": 1000000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev5",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw0",
+            "n2": "d_main0.branch0_branchdepth0_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main0.branch0_branchdepth1_dev5",
+            "n2": "branch_0.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "d_main1.branch0_branchdepth1_dev1",
+            "n2": "branch_1.0_sw1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw2",
+            "n2": "branch_2.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw2",
+            "n2": "d_main0.branch0_branchdepth2_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw1",
+            "n2": "d_main1.branch0_branchdepth1_dev4",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_0.0_sw1",
+            "n2": "d_main0.branch0_branchdepth1_dev1",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_2.0_sw0",
+            "n2": "d_main2.branch0_branchdepth0_dev3",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_2.0_sw0",
+            "n2": "main_sw2",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "main_sw1",
+            "n2": "branch_1.0_sw0",
+            "bandwidth": 100000000.0
+        },
+        {
+            "n1": "branch_1.0_sw2",
+            "n2": "d_main1.branch0_branchdepth2_dev2",
+            "bandwidth": 100000000.0
+        }
+    ],
+    "streams": [
+        {
+            "id": 0,
+            "label": "st0",
+            "path": [
+                "d_main1.branch0_branchdepth0_dev1",
+                "branch_1.0_sw0",
+                "main_sw1",
+                "main_sw0",
+                "branch_0.0_sw0",
+                "d_main0.branch0_branchdepth0_dev5"
+            ],
+            "priority": 6,
+            "rate": 502939.9270992838,
+            "burst": 6679,
+            "minFrameSize": 512,
+            "maxFrameSize": 6519
+        },
+        {
+            "id": 1,
+            "label": "st1",
+            "path": [
+                "d_main0.branch0_branchdepth0_dev4",
+                "branch_0.0_sw0",
+                "d_main0.branch0_branchdepth0_dev5"
+            ],
+            "priority": 4,
+            "rate": 6958953.7620501155,
+            "burst": 7383,
+            "minFrameSize": 512,
+            "maxFrameSize": 7223
+        },
+        {
+            "id": 2,
+            "label": "st2",
+            "path": [
+                "d_main0.branch0_branchdepth1_dev0",
+                "branch_0.0_sw1",
+                "d_main0.branch0_branchdepth1_dev1"
+            ],
+            "priority": 7,
+            "rate": 20181.452728988086,
+            "burst": 6056,
+            "minFrameSize": 512,
+            "maxFrameSize": 5896
+        },
+        {
+            "id": 3,
+            "label": "st3",
+            "path": [
+                "d_main1.branch0_branchdepth1_dev2",
+                "branch_1.0_sw1",
+                "d_main1.branch0_branchdepth1_dev3"
+            ],
+            "priority": 5,
+            "rate": 518501.0164503119,
+            "burst": 5362,
+            "minFrameSize": 512,
+            "maxFrameSize": 5202
+        },
+        {
+            "id": 4,
+            "label": "st4",
+            "path": [
+                "d_main1.branch0_branchdepth0_dev1",
+                "branch_1.0_sw0",
+                "main_sw1",
+                "main_sw0",
+                "branch_0.0_sw0",
+                "branch_0.0_sw1",
+                "d_main0.branch0_branchdepth1_dev3"
+            ],
+            "priority": 6,
+            "rate": 143076.78328567016,
+            "burst": 6763,
+            "minFrameSize": 512,
+            "maxFrameSize": 6603
+        },
+        {
+            "id": 5,
+            "label": "st5",
+            "path": [
+                "d_main0.branch0_branchdepth0_dev2",
+                "branch_0.0_sw0",
+                "branch_0.0_sw1",
+                "d_main0.branch0_branchdepth1_dev4"
+            ],
+            "priority": 7,
+            "rate": 2811482.74961317,
+            "burst": 7684,
+            "minFrameSize": 512,
+            "maxFrameSize": 7524
+        },
+        {
+            "id": 6,
+            "label": "st6",
+            "path": [
+                "d_main1.branch0_branchdepth2_dev1",
+                "branch_1.0_sw2",
+                "branch_1.0_sw1",
+                "d_main1.branch0_branchdepth1_dev0"
+            ],
+            "priority": 4,
+            "rate": 581976.1336705688,
+            "burst": 1488,
+            "minFrameSize": 512,
+            "maxFrameSize": 1328
+        },
+        {
+            "id": 7,
+            "label": "st7",
+            "path": [
+                "d_main2.branch0_branchdepth0_dev1",
+                "branch_2.0_sw0",
+                "d_main2.branch0_branchdepth0_dev0"
+            ],
+            "priority": 7,
+            "rate": 56398.320142319746,
+            "burst": 4301,
+            "minFrameSize": 512,
+            "maxFrameSize": 4141
+        },
+        {
+            "id": 8,
+            "label": "st8",
+            "path": [
+                "d_main1.branch0_branchdepth1_dev1",
+                "branch_1.0_sw1",
+                "branch_1.0_sw0",
+                "d_main1.branch0_branchdepth0_dev4"
+            ],
+            "priority": 5,
+            "rate": 988194.5035785701,
+            "burst": 6812,
+            "minFrameSize": 512,
+            "maxFrameSize": 6652
+        },
+        {
+            "id": 9,
+            "label": "st9",
+            "path": [
+                "d_main1.branch0_branchdepth1_dev0",
+                "branch_1.0_sw1",
+                "branch_1.0_sw2",
+                "d_main1.branch0_branchdepth2_dev5"
+            ],
+            "priority": 6,
+            "rate": 19052.110637556307,
+            "burst": 7269,
+            "minFrameSize": 512,
+            "maxFrameSize": 7109
+        }
+    ]
+}
